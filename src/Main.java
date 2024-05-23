@@ -4,6 +4,6 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Carpeta compartida ....");
-        System.out.println("Funcionando....");
+        System.out.println("Funcionando--");
     }
 }
