@@ -33,7 +33,26 @@ class Perro extends Animal{
         super.mostrar();
         System.out.println("Raza: "+raza);
         System.out.println("Color: "+color);
+    }
+}
 
+class PerroGuardia extends Perro{
+    String tamanio;
+    int anio;
+    String direccion;
 
+    public PerroGuardia(String nombre, String sexo, String tipo, String raza, String color, String tamanio, int anio, String direccion ){
+        super(nombre, sexo, tipo, raza, color);
+        this.tamanio=tamanio;
+        this.anio=anio;
+        this.direccion=direccion;
+    }
+
+    public void infoPGuardia(){
+        System.out.println("---- INFROMACION DEL PERRO GUARDIAN -----");
+        super.infoPerro();
+        System.out.println("Tamaño: "+tamanio);
+        System.out.println("Año: "+anio);
+        System.out.println("Direccion: "+direccion);
     }
 }

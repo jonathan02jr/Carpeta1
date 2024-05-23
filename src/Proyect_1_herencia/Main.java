@@ -11,5 +11,9 @@ public class Main {
         Perro animal2 = new Perro("Espanky","Macho","Domestico","Schnauzer","Negro");
         System.out.println("\nInformacion de la subclase Perros");
         animal2.infoPerro();
+
+        PerroGuardia animal3 = new PerroGuardia("Royer","Macho","Domestico","Pitbull","Blanco","Mediano",3,"Tumbaco El Arenal");
+        System.out.println("\nInformacion de la subclase Perro guardia de la subclase Perros");
+        animal3.infoPGuardia();
     }
 }
