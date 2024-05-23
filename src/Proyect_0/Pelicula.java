@@ -1,3 +1,5 @@
+package Proyect_0;
+
 public class Pelicula {
     public String nombre;
     public String genero;
